@@ -1,1 +1,13 @@
 
+Instructions for running code locally
+
+1. Make sure you have the latest version of Java on your local machine (if not, follow instructions here https://docs.oracle.com/en/java/javase/15/install/installation-jdk-macos.html)
+2. Make sure you have latest version of Python (follow instructions- https://www.python.org/downloads/macos/)
+3. Download Pycharm (or any other IDE of your choice) if you do not have it already
+4. Create a folder called input_data
+5. Make sure to copy all three csv files from https://docs.google.com/document/d/1jhQxhGVmxVF8MlsUnSITVxIjGwEOxJnr/edit#
+and put them in the input_data folder. I did  not include them in this repo as they were too large, and git pushes kept timing out
+6. Once those files are in input folder, make sure they are named cons.csv, cons_email.csv, and cons_email_chapter_subscription.csv respectively
+7. Go to the create_dfs.py file
+8. right click anywhere in the file and select "Run create_dfs"
+9. Output will be shown in run terminal
